@@ -58,9 +58,9 @@ Create an HTML Page:
 html
 Copy code
 <html>
-  <head><title>My Landing Page</title></head>
+  <head><title>Mofiyinfoluwa's Landing Page</title></head>
   <body>
-    <h1>Welcome to My Landing Page!</h1>
+    <h1>Welcome to Mofiyinfoluwa's Landing Page!</h1>
   </body>
 </html>
 Upload the HTML Page to the Server:
@@ -70,7 +70,7 @@ bash
 Copy code
 scp index.html username@your-server-ip:/var/www/html/
 Verify HTML Deployment:
-In your web browser, go to the server’s IP address again (e.g., http://your-server-ip). Your custom HTML page should now be displayed instead of the default Apache page.
+In your web browser, go to the server’s IP address again (e.g., http://52.207.137.118). Your custom HTML page should now be displayed instead of the default Apache page.
 
 Check Firewall Configuration:
 For Ubuntu/Debian (UFW):
@@ -113,6 +113,6 @@ Edit /etc/apache2/apache2.conf
 Verify Setup:
 Open a browser and navigate to confirm the secure connection. To access my landing page, click on https://web.mofiyinfoluwa.crabdance.com/
 
-The public ip address obtained when i launched the instance is 52.207.137.118
+The public ip address is http://52.207.137.118
 
 
